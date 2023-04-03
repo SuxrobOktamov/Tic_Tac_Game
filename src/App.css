@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.delete-btn {
+    box-shadow: inset 0px 0px 74px 0px #73848b;
+    background-image: url(img/xmark.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center center;
+    background-color: #ccc;
+}
+
+.delete {
+    box-shadow:none;
+    background-image: url(img/xmark.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center center;
+    background-color: blue;
+}
+
+.solid-btn {
+    box-shadow: inset 0px 0px 74px 0px #73848b;
+    background-image: url(img/o-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center center;
+    background-color: #ccc;
+}
+
+.solid {
+    background-image: url(img/o-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center center;
+    background-color: #ff00fa;
+}
+
+p {
+    position: absolute;
+    bottom: 70px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    opacity: 0.7;
+    font-family: cursive;
+}
+.restart {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.restart svg {
+    display: block;
+    width: 60px;
+    margin-left: 28px;
+}
+
+.restart h2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transform: translate(-50%, -50%);
+}
+
+.restart button {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 16px;
+    background: #000;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transform: translate(-50%, -50%);
+}
+
+.win {
+    background-color: lime;
+    /* transition: .3s linear; */
+    animation: winner 1s linear infinite;
+}
+
+@keyframes winner {
+    0%{
+        background-color: lime;
+    }50%{
+        background-color: #3b8a3b;
+    }100%{
+        background-color: lime;
+    }
+}

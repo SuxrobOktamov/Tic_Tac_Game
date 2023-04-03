@@ -1,0 +1,26 @@
+.row {
+    position: absolute;
+    width: 360px;
+    height: 330px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.list-item {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 100%;
+}
+
+.item {
+    cursor: pointer;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 1rem;
+    background-color: #96c2d6;
+}

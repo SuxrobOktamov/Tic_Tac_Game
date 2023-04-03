@@ -1,0 +1,15 @@
+.playerTwo {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: green;
+    text-shadow: 2px 3px 3px #00ff0a;
+    z-index: 100;
+    opacity: .8;
+}
+
+.playerTwo.gameWin {
+    display: block;
+}

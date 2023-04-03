@@ -1,0 +1,14 @@
+.draw {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #05ffe8;
+    color: red;
+    z-index: 9;
+    opacity: .8;
+}
+
+.draw.gameWin {
+    display: block;
+}
