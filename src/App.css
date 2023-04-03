@@ -27,7 +27,7 @@
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: center center;
-    background-color: blue;
+    background-color: blue !important;
 }
 
 .solid-btn {
@@ -44,7 +44,7 @@
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: center center;
-    background-color: #ff00fa;
+    background-color: #ff00fa !important;
 }
 
 p {
